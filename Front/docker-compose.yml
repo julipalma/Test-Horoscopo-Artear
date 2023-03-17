@@ -1,0 +1,16 @@
+version: '3.5'
+
+services:
+       
+  cbl_v2_login:
+    image: test_horoscopo_front
+    build: 
+     context: ./
+     dockerfile: Dockerfile
+
+    ports:
+      - 3000:3000
+    
+    volumes:
+      - .:/test_horoscopo_image
+    tty: true

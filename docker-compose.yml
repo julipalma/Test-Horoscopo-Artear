@@ -1,0 +1,25 @@
+version: '3.5'
+
+services:
+      
+    test_horoscopo_front:
+        image: test_horoscopo_front
+        build: 
+            context: test_horoscopo_front
+            dockerfile: Dockerfile
+
+        ports:
+            - 3000:3000
+
+        volumes:
+            - /test_horoscopo_front:/test_horoscopo_front_image
+        tty: true
+        
+    artear_back_horoscopo:
+        
+        build: 
+            context: ./artear_back_horoscopo
+            dockerfile: Dockerfile
+        volumes:
+            - /artear_back_horoscopo:/artear_back_horoscopo_image
+        tty: true  

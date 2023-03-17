@@ -1,0 +1,15 @@
+// fonts
+
+@font-face {
+    font-family: Work Sans, sans-serif;
+    src: url(../assets/Work_Sans/WorkSans-Italic-VariableFont_wght.ttf);
+}
+
+$font-primary: 'Questrial', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+$font-secondary: 'Voyage', 'Questrial', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+// colors
+$color-primary: #9366cd;
+
+// breakpoints
+$medium: 991px;
